@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logolink {
+    display: inline-block; 
+    width: 100%; 
+    height: 100%;
+    z-index: 10;
+  }
+  
+  
+  
+    .logo {
+      z-index: 10;
+      display: block;
+      width: 7vw;
+      height: 7vw;
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+    }
+
+
+.Bienenstöcke{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-color: rgb(255, 239, 99);
+}
+
+.Linde{
+    color: white;
+    font-size: 3rem;
+}
+
+.LindeContainer{
+    position: absolute;
+    top: 40rem;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.LindeH2{
+    color: white;
+    font-size: 2rem;
+}
+
+.LindeH2Container{
+    position: absolute;
+    top: 45rem;
+    width: 100%;
+    text-align: center;
+}

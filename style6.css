@@ -1,0 +1,102 @@
+.logolink {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.logo {
+  z-index: 10;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(241, 255, 97);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.NewsContainer {
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  background-color: #f0eee2;;
+  height: 57rem;
+}
+
+
+.informationbar{
+    position: absolute;
+    top: 20rem;
+    height: 35rem;
+    width: 100vw;
+    
+    
+}
+
+.firstnews{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+    position: absolute;
+    left: 5vw;
+    width: 50rem;
+    text-align: center;
+    height: 100%;
+    
+}
+
+.imgnews{
+    display: block;
+    position: absolute;
+    width: 35rem;
+    
+}
+
+.h2Container{
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    bottom: 0;
+    color: black;
+    text-align: center;
+}
+
+.secondnews{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+    position: absolute;
+    right: 5vw;
+    width: 50rem;
+    text-align: center;
+    height: 100%;
+}
+
+
+
+.Instagram{
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+

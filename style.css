@@ -1,0 +1,163 @@
+.main-foto {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(255, 239, 99);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.header {
+  position: absolute;
+  margin: 0;
+  top: 40vh;
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 239, 99);
+  font-size: 7rem;
+}
+.underheader {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.Kant-Bienen {
+  color: yellow;
+  text-shadow: 0 0 1rem;
+}
+
+.bienenag {
+  position: absolute;
+  top: calc(100vh + 4rem);
+  width: 100%;
+
+  height: fit-content;
+  background-color: rgb(255, 239, 99);
+  padding-bottom: 2rem;
+}
+
+.logo {
+  width: 7vw;
+  height: 7vw;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.navigation {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+
+  ul {
+    font-size: 20px;
+
+    margin: 0;
+
+    top: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+
+    li {
+      list-style: none;
+      padding: 1rem;
+      background-color: rgba(229, 229, 229, 0.2);
+
+      gap: 3rem;
+      position: relative;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        display: none;
+        margin-top: 39px;
+        width: auto;
+
+        position: absolute;
+        right: -16px;
+
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+
+        li {
+          padding: 7px;
+          a {
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.menüicon {
+  display: none;
+}
+
+
+@media screen and (min-width: 651px) {
+  #menüicon {
+    display: none;
+  }
+}
+
+
+
+
+
+
+@media screen and (min-width: 651px) {
+  .dropdown:hover .dropdown-content {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    margin: 0;
+  }
+
+  .navigation {
+    display: none;
+    right: 0;
+  }
+
+  #menüicon {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(229, 229, 229, 0.2);
+    padding: 0.5rem;
+    right: 0;
+    top: 0;
+    border-radius: 10px;
+    z-index: 20;
+  }
+
+  .logo {
+    width: 5rem;
+    height: 5rem;
+  }
+}
