@@ -137,6 +137,11 @@ h1 {
 }
 
 @media screen and (max-width: 550px){
+  h1{
+    font-size: 2rem;
+  }
+
+  
   .imgnews{
     width: 20rem;
     top: 0;
