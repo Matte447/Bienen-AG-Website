@@ -107,4 +107,65 @@ h1{
 .MitMach{
   color: black;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
 }
+
+@media screen and (max-width: 750px){
+  .logo {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+
+
+@media screen and (max-width: 650px) {
+
+  .arrow-button{
+    padding: calc(1vw *2) calc(2vw*2);
+    font-size: calc(2vw*2);
+  }
+
+  .MitMach{
+    font-size: 1rem;
+    padding: 0 10px 0 10px;
+  }
+
+  .MitMachContainer{
+    top: -100px;
+  }
+
+
+
+
+  .switchfoto{
+    width: calc(40% * 1.5);
+  }
+
+  #lt{
+    left: calc(22vw * 0.5);
+  }
+
+  #gt{
+    right: calc(22vw * 0.5);
+  }
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 450px){
+  h1{
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 390px){
+  h1{
+    font-size: 2rem;
+  }
+}
+
