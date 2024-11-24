@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+
+}
+
+
 .logolink {
     display: inline-block; 
     width: 100%; 
@@ -17,6 +23,56 @@
       left: 1rem;
     }
 
+
+    h1{
+        width: 100%;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding: 2rem;
+    }
+    
+    .h2imgcontainer {
+        position: relative;
+        width: 30rem;
+        text-align: center;
+    }
+
+    .h2imgcontainer a {
+        display: block;
+        position: relative;
+        text-decoration: none; 
+    }
+    
+    .threeimg {
+        filter: brightness(0.6);
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .h2imgcontainer a h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 2rem;
+        margin: 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .h2imgcontainer a:hover .threeimg {
+        filter: brightness(0.8); 
+    }
+
+    
 
 
 
@@ -54,6 +110,10 @@
     .logo {
       width: 5rem;
       height: 5rem;
+    }
+
+    .h2imgcontainer {
+        width: 100%;
     }
   }
   
