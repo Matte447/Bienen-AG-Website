@@ -35,7 +35,7 @@ body{
 }
 
 .container{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     z-index: -1;
     background-color: rgb(255, 239, 99);
@@ -57,6 +57,7 @@ body{
 .LindeH2{
     color: black;
     font-size: 1rem;
+    padding: 2rem;
 }
 
 .LindeH2Container{
