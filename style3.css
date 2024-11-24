@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 239, 99);
 }
 
 
@@ -41,7 +42,7 @@ body{
 }
 
 .Robinie{
-    color: white;
+    color: black;
     font-size: 3rem;
 }
 
@@ -54,7 +55,7 @@ body{
 }
 
 .RobinieH2{
-    color: white;
+    color: black;
     font-size: 2rem;
 }
 
