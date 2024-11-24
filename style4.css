@@ -56,14 +56,14 @@ body{
 
 .LindeH2{
     color: black;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .LindeH2Container{
     position: absolute;
     top: 45rem;
     width: 100%;
-    text-align: center;
+    text-align: justify;
 }
 
 

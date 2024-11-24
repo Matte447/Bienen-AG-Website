@@ -56,14 +56,16 @@ body{
 
 .BlüteH2{
     color: black;
-    font-size: 2rem;
+    font-size: 1rem;
+    padding: 1rem;
 }
 
 .BlüteH2Container{
     position: absolute;
     top: 45rem;
     width: 100%;
-    text-align: center;
+    text-align: justify;
+    
 }
 
 
