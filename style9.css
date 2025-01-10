@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: grey;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+
+.logolink {
+    display: inline-block; 
+    width: 100%; 
+    height: 100%;
+    z-index: 10;
+  }
+  
+  
+  
+    .logo {
+      z-index: 10;
+      display: block;
+      width: 7vw;
+      height: 7vw;
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+    }
