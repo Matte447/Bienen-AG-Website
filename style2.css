@@ -23,6 +23,8 @@ h1{
 
 .switchfoto {
   width: 40%;
+  height: fit-content;
+  object-fit: cover;
   margin: 200px;
   box-shadow: 1px 1px 10px black;
 }
@@ -112,9 +114,10 @@ h1{
   padding: 2rem;
 }
 
-.Infos{
+.Infos {
   text-align: justify;
 }
+
 
 @media screen and (max-width: 750px){
   .logo {
