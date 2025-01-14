@@ -36,3 +36,15 @@ h1 {
       top: 1rem;
       left: 1rem;
     }
+
+
+
+
+
+
+    @media screen and (max-width: 750px){
+      .logo {
+        width: 5rem;
+        height: 5rem;
+      }
+    }
