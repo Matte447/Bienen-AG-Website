@@ -186,6 +186,35 @@ h1 {
   }
 }
 
+@media screen and (min-width: 1900px){
+  .informationbar{
+    height: 50rem;
+  }
+  .firstnews{
+    height: 100%;
+    width: 40%;
+  }
+  .secondnews{
+    height: 100%;
+    width: 40%;
+  }
+  .imgnews{
+    height: 40rem;
+    width: 100%;
+  }
+  .h2Container{
+    width: 60%;
+    height: 40%;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+
+}
+
 
 
 
