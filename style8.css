@@ -1,101 +1,138 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(255, 239, 99);
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 239, 99);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.logo {
+  z-index: 10;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
 
+.Bienenstöcke {
+  position: absolute;
+  left: 3rem;
+  top: 10rem;
+  width: 45%;
+  height: 30rem;
+  object-fit: cover;
+}
 
+.Schaukasten {
+  position: absolute;
+  right: 3rem;
+  top: 10rem;
+  width: 45%;
+  height: 30rem;
+  object-fit: cover;
+}
 
+.container {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-color: rgb(255, 239, 99);
+}
 
+.Völker {
+  color: black;
+  font-size: 3rem;
+}
 
-  
-  
-  
-    .logo {
-      z-index: 10;
-      display: block;
-      width: 7vw;
-      height: 7vw;
-      position: absolute;
-      top: 1rem;
-      left: 1rem;
-    }
+.Container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
 
-    .Bienenstöcke{
-        position: absolute;
-        top: 10rem;
-        width: 100%;
-        height: 30rem;
-        object-fit: cover;
-    }
-    
-    .container{
-        width: 100vw;
-        height: 100vh;
-        z-index: -1;
-        background-color: rgb(255, 239, 99);
-    }
-    
-    .Völker{
-        color: black;
-        font-size: 3rem;
-    }
-    
-    .Container{
-        position: absolute;
-        top: 0;
-        width: 100%;
-        text-align: center;
-        
-    }
-    
-    .H2{
-        color: black;
-        font-size: 1rem;
-        padding: 2rem;
-    }
-    
-    .H2Container{
-        position: absolute;
-        top: 42rem;
-        left: 3rem;
-        width: 45%;
-        text-align: justify;
-        background-color: white;
-        box-shadow: 1px 1px 10px black;
-        border-radius: 3rem;
-        
-    }
+.H2 {
+  color: black;
+  font-size: 1rem;
+  padding: 2rem;
+}
 
+.H2Container {
+  position: absolute;
+  top: 42rem;
+  left: 3rem;
+  width: 45%;
+  text-align: justify;
+  background-color: white;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 3rem;
+}
+
+.SchaukastenH2 {
+  position: absolute;
+  top: 42rem;
+  right: 3rem;
+  width: 45%;
+  text-align: justify;
+  background-color: white;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 3rem;
+}
+
+@media screen and (max-width: 750px) {
+  .logo {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Bienenstöcke{
+    width: 90%;
+    left: 5%;
+  }
+  .H2Container{
+    width: 90%;
+    left: 5%;
+  }
+  .Schaukasten {
+    width: 90%;
+    left: 5%;
+    top: 70rem;
+  }
+
+  .SchaukastenH2 {
+    width: 90%;
+    left: 5%;
+    top: 105rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+    .Schaukasten{
+        top: 80rem;
+    }
     .SchaukastenH2{
-        position: absolute;
-        top: 42rem;
-        right: 3rem;
-        width: 45%;
-        text-align: justify;
-        background-color: white;
-        box-shadow: 1px 1px 10px black;
-        border-radius: 3rem;
-        
+        top: 115rem;
     }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-    @media screen and (max-width: 750px){
-        .logo {
-          width: 5rem;
-          height: 5rem;
-        }
-      }
+@media screen and (max-height: 700px) {
+    .Bienenstöcke{
+        height: 20rem;
+    }
+    .H2Container{
+        top: 32rem;
+    }
+    .H2{
+        font-size: 0.8rem;
+    }
+    .Schaukasten{
+        height: 20rem;
+        top: 60rem;
+    }
+    .SchaukastenH2{
+        top: 83rem;
+    }
+}
