@@ -63,7 +63,8 @@ h1 {
     display: block;
     position: absolute;
     width: 35rem;
-    
+    height: 25rem;
+    object-fit: cover;
 }
 
 .h2Container{
