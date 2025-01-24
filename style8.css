@@ -136,3 +136,15 @@ body {
         top: 83rem;
     }
 }
+@media screen and (min-width:1430px){
+    .H2{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width:1441px){
+    .H2{
+        font-size: 1.7rem;
+    }
+}
