@@ -38,8 +38,22 @@ h1 {
       left: 1rem;
     }
 
+<<<<<<< HEAD
 h2{
     color: black;
     padding: 3rem;
     margin: 0;
 }
+=======
+
+
+
+
+
+    @media screen and (max-width: 750px){
+      .logo {
+        width: 5rem;
+        height: 5rem;
+      }
+    }
+>>>>>>> 1c38ee764410d5e795171d12a912994106a8ba16
