@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(255, 239, 99);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -58,9 +59,25 @@ body{
     
     .H2Container{
         position: absolute;
-        top: 40rem;
-        width: 100%;
+        top: 42rem;
+        left: 3rem;
+        width: 45%;
         text-align: justify;
+        background-color: white;
+        box-shadow: 1px 1px 10px black;
+        border-radius: 3rem;
+        
+    }
+
+    .SchaukastenH2{
+        position: absolute;
+        top: 42rem;
+        right: 3rem;
+        width: 45%;
+        text-align: justify;
+        background-color: white;
+        box-shadow: 1px 1px 10px black;
+        border-radius: 3rem;
         
     }
 
