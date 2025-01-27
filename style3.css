@@ -48,7 +48,7 @@ body{
 
 .RobinieContainer{
     position: absolute;
-    top: 40rem;
+    top: 30rem;
     width: 100%;
     text-align: center;
     
@@ -63,7 +63,7 @@ body{
 
 .RobinieH2Container{
     position: absolute;
-    top: 45rem;
+    top: 35rem;
     width: 100%;
     text-align: justify;
 }
