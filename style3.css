@@ -48,7 +48,7 @@ body{
 
 .RobinieContainer{
     position: absolute;
-    top: 40rem;
+    top: 30rem;
     width: 100%;
     text-align: center;
     
@@ -63,7 +63,7 @@ body{
 
 .RobinieH2Container{
     position: absolute;
-    top: 45rem;
+    top: 35rem;
     width: 100%;
     text-align: justify;
 }
@@ -77,3 +77,22 @@ body{
       height: 5rem;
     }
   }
+
+  @media screen and (min-width:1430px){
+    .RobinieH2{
+        font-size: 1.5rem;
+    }
+    .Robinie{
+        font-size: 3.5rem;
+    }
+}
+
+
+@media screen and (min-width:1441px){
+    .RobinieH2{
+        font-size: 1.7rem;
+    }
+    .Robinie{
+        font-size: 3.7rem;
+    }
+}

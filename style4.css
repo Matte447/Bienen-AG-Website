@@ -48,7 +48,7 @@ body{
 
 .LindeContainer{
     position: absolute;
-    top: 40rem;
+    top: 30rem;
     width: 100%;
     text-align: center;
     
@@ -62,7 +62,7 @@ body{
 
 .LindeH2Container{
     position: absolute;
-    top: 45rem;
+    top: 35rem;
     width: 100%;
     text-align: justify;
 }
@@ -75,3 +75,22 @@ body{
       height: 5rem;
     }
   }
+
+  @media screen and (min-width:1430px){
+    .LindeH2{
+        font-size: 1.5rem;
+    }
+    .Linde{
+        font-size: 3.5rem;
+    }
+}
+
+
+@media screen and (min-width:1441px){
+    .LindeH2{
+        font-size: 1.7rem;
+    }
+    .Linde{
+        font-size: 3.7rem;
+    }
+}
