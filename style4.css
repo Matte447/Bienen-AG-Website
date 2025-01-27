@@ -75,3 +75,22 @@ body{
       height: 5rem;
     }
   }
+
+  @media screen and (min-width:1430px){
+    .LindeH2{
+        font-size: 1.5rem;
+    }
+    .Linde{
+        font-size: 3.5rem;
+    }
+}
+
+
+@media screen and (min-width:1441px){
+    .LindeH2{
+        font-size: 1.7rem;
+    }
+    .Linde{
+        font-size: 3.7rem;
+    }
+}

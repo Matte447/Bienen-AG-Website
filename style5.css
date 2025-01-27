@@ -77,3 +77,22 @@ body{
       height: 5rem;
     }
   }
+
+  @media screen and (min-width:1430px){
+    .BlüteH2{
+        font-size: 1.5rem;
+    }
+    .Blüte{
+        font-size: 3.5rem;
+    }
+}
+
+
+@media screen and (min-width:1441px){
+    .BlüteH2{
+        font-size: 1.7rem;
+    }
+    .Blüte{
+        font-size: 3.7rem;
+    }
+}
