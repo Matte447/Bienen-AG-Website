@@ -156,6 +156,10 @@ body {
     z-index: 20;
   }
 
+} 
+
+  @media screen and (max-width: 650px) {
+
   .logo {
     width: 5rem;
     height: 5rem;
