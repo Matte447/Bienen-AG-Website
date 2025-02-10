@@ -150,7 +150,7 @@ h1 {
       }
     
       #menüicon {
-        position: absolute;
+        position: fixed;
         display: block;
         width: 30px;
         height: 30px;
