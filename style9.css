@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -54,3 +55,112 @@ h1 {
         height: 5rem;
       }
     }
+
+
+
+
+    .navigation {
+      position: absolute;
+      margin: 0;
+      padding: 0;
+    
+      ul {
+        font-size: 20px;
+    
+        margin: 0;
+    
+        top: 0;
+        right: 0;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+    
+        li {
+          list-style: none;
+          padding: 1rem;
+          background-color: rgba(73, 73, 73, 0.8);
+    
+          gap: 3rem;
+          position: relative;
+          a {
+            text-decoration: none;
+            color:white;
+          }
+          ul {
+            display: flex;
+            flex-direction: column;
+            display: none;
+            margin-top: 39px;
+            width: auto;
+    
+            position: absolute;
+            right: -16px;
+    
+            padding: 1rem;
+            width: 100%;
+            text-align: center;
+    
+            li {
+              padding: 7px;
+              a {
+                text-decoration: none;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .menüicon {
+      display: none;
+    }
+    
+    
+    @media screen and (min-width: 651px) {
+      #menüicon {
+        display: none;
+      }
+    }
+    
+    
+    
+    
+    
+    
+    @media screen and (min-width: 651px) {
+      .dropdown:hover .dropdown-content {
+        display: flex;
+      }
+    }
+    
+    @media screen and (max-width: 650px) {
+      body {
+        margin: 0;
+      }
+    
+      .navigation {
+        display: none;
+        right: 0;
+      }
+    
+      #menüicon {
+        position: fixed;
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-color: rgba(73, 73, 73, 0.8);
+        padding: 0.5rem;
+        right: 0;
+        top: 0;
+        border-radius: 10px;
+        z-index: 20;
+      }
+    
+    } 
+    
