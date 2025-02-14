@@ -151,16 +151,18 @@ h1 {
     font-size: 0.5rem;
   }
   .informationbar{
-    height: 700px;
+    height: 800px;
     top: 10rem;
   }
   .secondnews{
     bottom: 1rem;
     height: 340px;
+    left: 0;
   }
   .firstnews{
     top: 0;
     height: 340px;
+    left: 0;
   }
   .NewsContainer{
     height: 65rem;
@@ -182,7 +184,7 @@ h1 {
 
 @media screen and (max-width: 550px){
   .Instagram{
-    top: 55rem;
+    top: 65rem;
   }
 }
 
