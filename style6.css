@@ -31,32 +31,28 @@ h1 {
   position: absolute;
   width: 100%;
   text-align: center;
-  background-color: #f0eee2;
-  height: 57rem;
+  top: 0;
 }
 
-
-.informationbar{
-    position: absolute;
-    top: 20rem;
-    height: 35rem;
-    width: 100%;
-    margin: 0;
-    
-    
+.flex-container{
+  width: 100%;
+  height: auto;
+  margin: 20rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
 }
 
-.firstnews{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    
-    position: absolute;
-    left: 1vw;
-    width: 50rem;
-    text-align: center;
-    height: 560px;
-    
+.flex-item{
+  flex: 1 0 50rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 560px;
+  position: relative;
+  margin: 1rem 0 1rem 0;
 }
 
 .imgnews{
@@ -77,56 +73,32 @@ h1 {
     font-size: 1rem;
 }
 
-.secondnews{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    
-    position: absolute;
-    right: 1vw;
-    width: 50rem;
-    text-align: center;
-    height: 560px;
-}
-
-
-
 .Instagram{
-  position: absolute;
-  bottom: 1rem;
+  position: relative;
   width: 100%;
   text-align: center;
+  margin-bottom: 3rem;
 }
 
-
-@media screen and (max-width: 1500px){
-  .firstnews{
-    left: 1vw;
-    width: 35rem;
+@media screen and (max-width: 820px){
+  .imgnews{
+    width: 23.3rem;
+    height: 16.6rem;
   }
 
-  .secondnews{
-    right: 1vw;
-    width: 35rem;
-  }
-}
-
-@media screen and (max-width: 1150px){
-  .informationbar{
-    height: 1220px;
-  }
-  .firstnews{
-    top: 0;
-    width: 100%;
+  .flex-item{
+    flex-basis: 60%;
   }
 
-  .secondnews{
-    bottom: 1rem;
-    width: 100%;
+  .flex-item{
+    height: 400px;
   }
 
-  .NewsContainer{
-    height: 105rem;
+  h2{
+    font-size: 1.2rem;
+  }
+  h3{
+    font-size: 1rem;
   }
 }
 
@@ -142,82 +114,33 @@ h1 {
     font-size: 2rem;
   }
 
-  
-  .imgnews{
-    width: 20rem;
-    top: 0;
-  }
-  .h2Container{
-    font-size: 0.5rem;
-  }
-  .informationbar{
-    height: 800px;
-    top: 10rem;
-  }
-  .secondnews{
-    bottom: 1rem;
-    height: 340px;
-    left: 0;
-  }
-  .firstnews{
-    top: 0;
-    height: 340px;
-    left: 0;
-  }
-  .NewsContainer{
-    height: 65rem;
-  }
-}
-
-@media screen and (max-width: 1300px){
-  .Instagram{
-    top: 55rem;
-
-  }
-}
-
-@media screen and (max-width: 1150px){
-  .Instagram{
-    top: 96rem;
-  }
-}
-
-@media screen and (max-width: 550px){
-  .Instagram{
-    top: 65rem;
+  .flex-container{
+    margin-top: 10rem;
   }
 }
 
 @media screen and (min-width: 1900px){
-  .informationbar{
-    height: 50rem;
-  }
-  .firstnews{
-    height: 100%;
-    width: 40%;
-  }
-  .secondnews{
-    height: 100%;
-    width: 40%;
-  }
   .imgnews{
     height: 40rem;
-    width: 100%;
+    width: 56rem;
   }
+
+  .flex-item{
+    height: 800px;
+  }
+
   .h2Container{
-    width: 60%;
+    width: 50%;
     height: 40%;
   }
+
   h2{
     font-size: 2.5rem;
   }
+
   h3{
     font-size: 1.5rem;
   }
-  .Instagram{
-    top: 70rem;
-  }
-
 }
 
 .navigation {
@@ -324,12 +247,3 @@ h1 {
   }
 
 } 
-
-
-
-
-
-
-
-
-
