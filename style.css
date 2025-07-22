@@ -78,7 +78,7 @@ body {
       position: relative;
       a {
         text-decoration: none;
-        color:white;
+        color: white;
       }
       ul {
         display: flex;
@@ -115,17 +115,11 @@ body {
   display: none;
 }
 
-
 @media screen and (min-width: 651px) {
   #menüicon {
     display: none;
   }
 }
-
-
-
-
-
 
 @media screen and (min-width: 651px) {
   .dropdown:hover .dropdown-content {
@@ -155,11 +149,9 @@ body {
     border-radius: 10px;
     z-index: 20;
   }
+}
 
-} 
-
-  @media screen and (max-width: 650px) {
-
+@media screen and (max-width: 650px) {
   .logo {
     width: 5rem;
     height: 5rem;

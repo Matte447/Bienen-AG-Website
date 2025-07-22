@@ -18,7 +18,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color:#f0eee2;
+  background-color: #f0eee2;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -34,7 +34,7 @@ h1 {
   top: 0;
 }
 
-.flex-container{
+.flex-container {
   width: 100%;
   height: auto;
   margin: 20rem 0 0 0;
@@ -42,10 +42,9 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  
 }
 
-.flex-item{
+.flex-item {
   flex: 1 0 50rem;
   display: flex;
   justify-content: center;
@@ -55,90 +54,90 @@ h1 {
   margin: 1rem 0 1rem 0;
 }
 
-.imgnews{
-    display: block;
-    position: absolute;
-    width: 35rem;
-    height: 25rem;
-    object-fit: cover;
+.imgnews {
+  display: block;
+  position: absolute;
+  width: 35rem;
+  height: 25rem;
+  object-fit: cover;
 }
 
-.h2Container{
-    padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.9);
-    position: absolute;
-    bottom: 0;
-    color: black;
-    text-align: center;
-    font-size: 1rem;
+.h2Container {
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  color: black;
+  text-align: center;
+  font-size: 1rem;
 }
 
-.Instagram{
+.Instagram {
   position: relative;
   width: 100%;
   text-align: center;
   margin-bottom: 3rem;
 }
 
-@media screen and (max-width: 820px){
-  .imgnews{
+@media screen and (max-width: 820px) {
+  .imgnews {
     width: 23.3rem;
     height: 16.6rem;
   }
 
-  .flex-item{
+  .flex-item {
     flex-basis: 60%;
   }
 
-  .flex-item{
+  .flex-item {
     height: 400px;
   }
 
-  h2{
+  h2 {
     font-size: 1.2rem;
   }
-  h3{
+  h3 {
     font-size: 1rem;
   }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 750px) {
   .logo {
     width: 5rem;
     height: 5rem;
   }
 }
 
-@media screen and (max-width: 550px){
-  h1{
+@media screen and (max-width: 550px) {
+  h1 {
     font-size: 2rem;
   }
 
-  .flex-container{
+  .flex-container {
     margin-top: 10rem;
   }
 }
 
-@media screen and (min-width: 1900px){
-  .imgnews{
+@media screen and (min-width: 1900px) {
+  .imgnews {
     height: 40rem;
     width: 56rem;
   }
 
-  .flex-item{
+  .flex-item {
     height: 800px;
   }
 
-  .h2Container{
+  .h2Container {
     width: 50%;
     height: 40%;
   }
 
-  h2{
+  h2 {
     font-size: 2.5rem;
   }
 
-  h3{
+  h3 {
     font-size: 1.5rem;
   }
 }
@@ -168,7 +167,7 @@ h1 {
       position: relative;
       a {
         text-decoration: none;
-        color:white;
+        color: white;
       }
       ul {
         display: flex;
@@ -205,17 +204,11 @@ h1 {
   display: none;
 }
 
-
 @media screen and (min-width: 651px) {
   #menüicon {
     display: none;
   }
 }
-
-
-
-
-
 
 @media screen and (min-width: 651px) {
   .dropdown:hover .dropdown-content {
@@ -245,5 +238,4 @@ h1 {
     border-radius: 10px;
     z-index: 20;
   }
-
-} 
+}

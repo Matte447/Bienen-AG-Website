@@ -88,11 +88,11 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-  .Bienenstöcke{
+  .Bienenstöcke {
     width: 90%;
     left: 5%;
   }
-  .H2Container{
+  .H2Container {
     width: 90%;
     left: 5%;
   }
@@ -110,46 +110,43 @@ body {
 }
 
 @media screen and (max-width: 560px) {
-    .Schaukasten{
-        top: 80rem;
-    }
-    .SchaukastenH2{
-        top: 115rem;
-    }
+  .Schaukasten {
+    top: 80rem;
+  }
+  .SchaukastenH2 {
+    top: 115rem;
+  }
 }
 
 @media screen and (max-height: 700px) {
-    .Bienenstöcke{
-        height: 20rem;
-    }
-    .H2Container{
-        top: 32rem;
-    }
-    .H2{
-        font-size: 0.8rem;
-    }
-    .Schaukasten{
-        height: 20rem;
-        top: 60rem;
-    }
-    .SchaukastenH2{
-        top: 83rem;
-    }
+  .Bienenstöcke {
+    height: 20rem;
+  }
+  .H2Container {
+    top: 32rem;
+  }
+  .H2 {
+    font-size: 0.8rem;
+  }
+  .Schaukasten {
+    height: 20rem;
+    top: 60rem;
+  }
+  .SchaukastenH2 {
+    top: 83rem;
+  }
 }
-@media screen and (min-width:1430px){
-    .H2{
-        font-size: 1.5rem;
-    }
-}
-
-
-@media screen and (min-width:1441px){
-    .H2{
-        font-size: 1.7rem;
-    }
+@media screen and (min-width: 1430px) {
+  .H2 {
+    font-size: 1.5rem;
+  }
 }
 
-
+@media screen and (min-width: 1441px) {
+  .H2 {
+    font-size: 1.7rem;
+  }
+}
 
 .navigation {
   position: absolute;
@@ -176,7 +173,7 @@ body {
       position: relative;
       a {
         text-decoration: none;
-        color:white;
+        color: white;
       }
       ul {
         display: flex;
@@ -213,17 +210,11 @@ body {
   display: none;
 }
 
-
 @media screen and (min-width: 651px) {
   #menüicon {
     display: none;
   }
 }
-
-
-
-
-
 
 @media screen and (min-width: 651px) {
   .dropdown:hover .dropdown-content {
@@ -253,6 +244,4 @@ body {
     border-radius: 10px;
     z-index: 20;
   }
-
-} 
-
+}
